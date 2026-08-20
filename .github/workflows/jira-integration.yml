@@ -26,7 +26,7 @@ jobs:
 
       - name: Login to Atlassian
 
-        uses: atlassian/gajira-login@v3
+        uses: atlassian/gajira-login@v2
 
         env:
 
