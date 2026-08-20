@@ -20,13 +20,13 @@ jobs:
 
       - name: Build project
 
-        run: echo "Building..."
+        run: echo "Building"
  
       # Send build info to Jira
 
       - name: Login to Atlassian
 
-        uses: atlassian/gajira-login@v2
+        uses: atlassian/gajira-login@v3
 
         env:
 
